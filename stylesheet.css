@@ -1,0 +1,14 @@
+header {
+    background-color: #1f2937;
+    display: flexbox;
+}
+
+.header_link {
+    display: flexbox;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hamster {
+    display: flexbox;
+}
