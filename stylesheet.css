@@ -1,14 +1,21 @@
 header {
     background-color: #1f2937;
-    display: flexbox;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .header_link {
-    display: flexbox;
-    justify-content: flex-end;
-    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: #e5e7eB;
+    font-size: 18px;
 }
 
 .hamster {
-    display: flexbox;
+    height: 50px;
+    width: auto;
+    margin-right: auto;
 }
