@@ -26,6 +26,7 @@ header {
     height: 50px;
     width: auto;
     margin-right: auto;
+    padding-bottom: 5px;
 }
 
 .hero {
@@ -39,4 +40,9 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    color: #e5e7eB;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
