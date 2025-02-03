@@ -15,6 +15,21 @@ header {
     min-height: 50px;
 }
 
+footer {
+    background-color: #1f2937;
+    min-height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #e5e7eB;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* classes */
+
 .header_link {
     display: flex;
     text-decoration: none;
@@ -34,15 +49,3 @@ header {
 
 }
 
-footer {
-    background-color: #1f2937;
-    min-height: 50px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: #e5e7eB;
-    font-size: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
