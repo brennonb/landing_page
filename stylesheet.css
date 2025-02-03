@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -28,6 +32,14 @@ footer {
     justify-content: center;
 }
 
+div h1 {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    margin: 0px;
+    width: 50%;
+}
+
 /* classes */
 
 .header_link {
@@ -46,6 +58,39 @@ footer {
 
 .hero {
     background-color: #1f2937;
-
+    max-height: 25%;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.hamstereye {
+    max-width: 100%;
+    max-height: 100%;
+    width: 50%;
+    height: 200px;
+}
+
+.hero_text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero_description {
+    color: #e5e7eB;
+    font-size: 15px;
+    margin-top: 9px;
+}
+
+.sign_up {
+    background-color: #3882f6;
+    margin-top: 9px;
+    padding: 5px;
+    border-radius: 8%;
+    text-align: center;
+    width: 100px;
+    color: #e5e7eB;
+    font-size: 15px;
+}
