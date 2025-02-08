@@ -7,6 +7,9 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    padding: 0;
+    flex: 1;
+    justify-content: space-between;
 }
 
 header {
@@ -58,7 +61,6 @@ div h1 {
 
 .hero {
     background-color: #1f2937;
-    max-height: 25%;
     padding: 10%;
     display: flex;
     align-items: center;
@@ -93,4 +95,16 @@ div h1 {
     width: 100px;
     color: #e5e7eB;
     font-size: 15px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.info {
+    display: flex;
+}
+
+.action {
+    display: flex;
 }
