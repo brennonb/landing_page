@@ -23,8 +23,8 @@ header {
 
 footer {
     background-color: #1f2937;
-    min-height: 50px;
-    position: absolute;
+    height: 50px;
+    position: relative;
     bottom: 0;
     width: 100%;
     color: #e5e7eB;
@@ -34,13 +34,6 @@ footer {
     justify-content: center;
 }
 
-div h1 {
-    display: flex;
-    flex-direction: column;
-    flex: auto;
-    margin: 0px;
-    width: 50%;
-}
 
 body div img {
     width: 100px;
@@ -93,6 +86,14 @@ body div img {
     margin-top: 9px;
 }
 
+.hero h1 {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    margin: 0px;
+    width: 50%;
+}
+
 .sign_up {
     background-color: #3882f6;
     margin-top: 9px;
@@ -106,10 +107,6 @@ body div img {
 
 .quote {
     background-color: #E5E7EB;
-}
-
-.info {
-    display: flex;
 }
 
 .action {
@@ -130,4 +127,24 @@ body div img {
     color: #1f2937;
     font-weight: 900;
     padding: 25px
+}
+
+.hamdescript {
+    width: 100px;
+    text-align: center;
+}
+
+
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 100px 300px 0px 300px;
+}
+
+.quote h1 {
+    text-align: end;
+    margin: 0;
+    padding-right: 300px;
 }
